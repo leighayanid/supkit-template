@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply min-h-screen bg-gray-100 dark:bg-green-900;
+}
+
+.router-link-exact-active {
+  @apply text-yellow-500;
+}
+
+.container {
+  @apply px-5 md:px-40;
+}
